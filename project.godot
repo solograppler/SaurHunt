@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="SaurHunt"
+run/main_scene="res://src/Levels/Terrain.tscn"
 config/icon="res://icon.png"
 
 [display]

@@ -18,5 +18,5 @@ extends KinematicBody2D
 
 func _on_Area2D_area_shape_entered(area_id: int, area: Area2D, area_shape: int, self_shape: int) -> void:
 	if "bad" in area.get_name():
-		print('HELP')
+		print("HELP")
 	pass # Replace with function body.
