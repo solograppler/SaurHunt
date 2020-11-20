@@ -20,3 +20,7 @@ func _input_event(viewport, event, shape_idx): # this handles mouse events
 	if _health <= 0:
 		queue_free()
 	pass
+
+func _on_body_entered(body):
+	if body.is_in_group("Enemies"):
+		print("hit")

@@ -15,7 +15,6 @@ func _physics_process(delta):
 #func _process(delta):
 
 func _input_event(viewport, event, shape_idx): # this handles mouse events
-	
 	if event is InputEventMouseButton and event.is_pressed() and event.button_index == BUTTON_LEFT:
 		_health -= _dmg
 		print(_health)
